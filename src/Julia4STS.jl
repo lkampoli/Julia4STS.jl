@@ -1,7 +1,6 @@
 module Julia4STS
 
     using BenchmarkTools
-    #using BenchmarkHistograms
     using Revise
     using Profile
     using ProfileView
@@ -9,7 +8,7 @@ module Julia4STS
     using MAT
     using SymPy
 
-    using Plots; gr(fmt=:png)
+    #using Plots; gr(fmt=:png)
     using UnicodePlots
     using PyPlot; pygui(true)
     using Images
@@ -50,7 +49,7 @@ module Julia4STS
     using Random
     using Statistics
     using LatinHypercubeSampling
-    using ProgressBars, Printfa
+    using ProgressBars, Printf
 
     using Flux, DiffEqFlux, Zygote, ForwardDiff
     using Flux.Optimise: update!
